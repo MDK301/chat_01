@@ -24,7 +24,7 @@ class _HomescreenState extends State<Homescreen> with WidgetsBindingObserver {
   late List<MapEntry<String, dynamic>?> allUserEntries;
   late List<MapEntry<String, dynamic>?> userMap;
   late List<MapEntry<String, dynamic>?> userFMap;
-  late List<MapEntry<String, dynamic>?> userSMap;
+  late List<MapEntry<String, dynamic>?> userSMap=[];
 
 
   bool isLoading = false;
